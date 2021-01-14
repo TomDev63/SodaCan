@@ -20,7 +20,7 @@ public class demo {
 		cans[2][0] = 33.10;		cans[2][1] = 149.9;
 		cans[3][0] = 33.10;		cans[3][1] = 168;
 		SodaCan isoCan = new SodaCan();
-		System.out.println("# Average Volume of array of cans");
+		System.out.println("# Average Volume of array of cans");  // Test Github Push TomD
 		for (int row = 0; row < cans.length; row++) {
 				totalVolume =+  isoCan.getVolume(cans[row][0],cans[row][1]);
 				totalSurfaceArea =+ isoCan.getSurfaceArea(cans[row][0],cans[row][1]);
